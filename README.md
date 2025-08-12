@@ -22,11 +22,11 @@ codc /path/to/project
 The script will assume that your `devcontainer.json` file is placed, relatively to your project root in a `.devcontainer` folder (default location in the `devcontainer` cli tool).
 
 ## Requirements
-`devcontainer` [CLI Tool](https://github.com/devcontainers/cli) (currently using version `0.80.0`)
+[`devcontainer`](https://github.com/devcontainers/cli) (currently using version `0.80.0`)
 
 Optionnal dependencies:
-- `jq` (currently using version `jq-1.6`)
-- `xdd` (currently using version `xxd 2021-10-22 by Juergen Weigert et al.`)
+- [`jq`](https://github.com/jqlang/jq) (currently using version `jq-1.6`)
+- [`xdd`](https://github.com/ckormanyos/xxd) (currently using version `xxd 2021-10-22 by Juergen Weigert et al.`)
 
 If you have `jq` and `xdd` installed, you can use this simpler version instead :
 ```bash
