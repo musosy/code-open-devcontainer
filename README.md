@@ -26,9 +26,9 @@ The script will assume that your `devcontainer.json` file is placed, relatively 
 
 Optionnal dependencies:
 - [`jq`](https://github.com/jqlang/jq) (currently using version `jq-1.6`)
-- [`xdd`](https://github.com/ckormanyos/xxd) (currently using version `xxd 2021-10-22 by Juergen Weigert et al.`)
+- [`xxd`](https://github.com/ckormanyos/xxd) (currently using version `xxd 2021-10-22 by Juergen Weigert et al.`)
 
-If you have `jq` and `xdd` installed, you can use this simpler version instead :
+If you have `jq` and `xxd` installed, you can use this simpler version instead :
 ```bash
 #!/bin/bash
 set -e
